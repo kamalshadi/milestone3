@@ -56,6 +56,7 @@ public class chase : MonoBehaviour {
                         nav.Stop();
                         anim.SetBool("isAttacking", true);
                         anim.SetBool("isWalking", false);
+						chaseTimer = 0f;
                     }
                 }
                 else
